@@ -14,6 +14,7 @@
 		61A387CC1D7F84C000ED3EC0 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A387CB1D7F84C000ED3EC0 /* ProductViewController.swift */; };
 		61A387CE1D809CEC00ED3EC0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A387CD1D809CEC00ED3EC0 /* ContactViewController.swift */; };
 		61EB2F791D88CA44001B485D /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EB2F781D88CA44001B485D /* ProductsTableViewController.swift */; };
+		61F124DE1D8B326500F7152A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F124DD1D8B326500F7152A /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		61A387CB1D7F84C000ED3EC0 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		61A387CD1D809CEC00ED3EC0 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		61EB2F781D88CA44001B485D /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		61F124DD1D8B326500F7152A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				61A387B91D7F5E1100ED3EC0 /* AppDelegate.swift */,
 				61A387BD1D7F5E1100ED3EC0 /* Main.storyboard */,
+				61F124DD1D8B326500F7152A /* Product.swift */,
 				61A387C01D7F5E1100ED3EC0 /* Assets.xcassets */,
 				61A387C21D7F5E1100ED3EC0 /* LaunchScreen.storyboard */,
 				61A387C51D7F5E1100ED3EC0 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				61A387CC1D7F84C000ED3EC0 /* ProductViewController.swift in Sources */,
 				61EB2F791D88CA44001B485D /* ProductsTableViewController.swift in Sources */,
+				61F124DE1D8B326500F7152A /* Product.swift in Sources */,
 				61A387BA1D7F5E1100ED3EC0 /* AppDelegate.swift in Sources */,
 				61A387CE1D809CEC00ED3EC0 /* ContactViewController.swift in Sources */,
 			);
