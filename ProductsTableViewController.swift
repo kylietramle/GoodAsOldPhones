@@ -20,7 +20,7 @@ class ProductsTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let pNames = productNames { // if let returns an Int, not optional Int
-        return pNames.count
+            return pNames.count
         }
         return 0
     }
@@ -41,7 +41,14 @@ class ProductsTableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "ShowProduct") {
             let productVC = segue.destinationViewController as? ProductViewController
-            productVC?.productName = "Really old phone"
+            
+            // get the cell that was tapped
+            guard let cell = sender as? UITableViewCell,
+                let indexPath = tableView.indexPath(for: cell) else {
+                    return
+            }
+            productVC?.productName = productNames?[indexPath.row]
+                    
         }
     }
 
